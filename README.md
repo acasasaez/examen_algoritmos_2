@@ -1,5 +1,5 @@
 # examen_algoritmos_2
-La solución al examen se encuentra en el siguiente enlace:
+La solución al examen se encuentra en el siguiente enlace: https://github.com/acasasaez/examen_algoritmos_2.git
 
 En esta prueba se nos propone un ejercicio de POO donde debemos crear dos clases 
 Clase 1: Punto
@@ -11,5 +11,13 @@ Por otro lado, cuenta con los siguientes métodos:
   3. cuadrante, que nos indicará el cuadrante del eje en el que se encuentra el punto
   4. vector, que nos permite calcular a partir de nuestro punto y  las coordenadas de otro punto el vector que se genera.
   5. distancia, que nos permite calcular la distancia de un punto al nuestro.
+  
+  Clase 2: Rectangulo
+    1.Creamos una clase rectangulo
+    2. Creamos su constructor, esta clase viene determinada por 2 puntos y la recta que los une será la diagonal de dicho rectángulo
+    3. creamos sus métodos:
+      a.Base
+      b.Altura
+      c.Area
   
   
