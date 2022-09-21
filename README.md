@@ -128,9 +128,56 @@ class rectangulo():
 def main():
     if __name__ == "__main__":
         main()
-        ````
   ```
-  
+  ```
+  from Class_Punto import*
+from Class_Rectangulo import*
+
+A= Punto()
+B = Punto()
+C= Punto()
+D = Punto()
+A.set_x(2)
+A.set_y(3)
+B.set_x(5)
+B.set_y(5)
+C.set_x(-3)
+C.set_y(-1)
+D.set_x()
+D.set_y()
+xa = A.get_x()
+ya = A.get_y()
+xb = B.get_x()
+yb = B.get_y()
+xc = C.get_x()
+yc = C.get_y()
+xd = D.get_x()
+yd = D.get_y()
+puntoA = A.show()
+puntoB=B.show()
+puntoC=C.show()
+puntoD = D.show()
+print ("El punto A tiene coordenadas:", puntoA)
+print("El punto B tiene coordenadas:", puntoB)
+print("El punto C tiene coordenadas:", puntoC)
+print("El punto D tiene coordenadas:", puntoD)
+A.cuadrante()
+C.cuadrante()
+D.cuadrante()
+AB =A.vector(xb,yb)
+BA = B.vector(xa,ya)
+distancia_AB =A.distancia(xb,yb)
+distancia_BA = B.distancia(xa,ya)
+print ("El vector AB=", AB)
+print("El vector BA=", BA)
+
+print("La distancia de A a B es",distancia_AB)
+print("La distancia de B a A es", distancia_BA)
+
+rectangulo = rectangulo()
+rectangulo.set_punto1 (A)
+rectangulo.set_punto2(B)
+
 
   
   
