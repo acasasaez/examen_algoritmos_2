@@ -52,3 +52,7 @@ class Punto():
     def distancia (self, x=0,y=0):
         d = math.sqrt((x-self.x)**2 + (y-self.y)**2)
         return d
+
+def main():
+    if __name__ == "__main__":
+        main()
