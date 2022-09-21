@@ -46,3 +46,9 @@ class Punto():
         b =y - self.y
         vector2 = (a,b)
         return vector2
+
+#Creamos el método distancia 
+#Calcula la distancia entre un punto (x,y) cuyas coordenadas pasamos por parámetro y nuestro punto.
+    def distancia (self, x=0,y=0):
+        d = math.sqrt((x-self.x)**2 + (y-self.y)**2)
+        return d
