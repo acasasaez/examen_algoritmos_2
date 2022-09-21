@@ -43,11 +43,6 @@ print("La distancia de A a B es",distancia_AB)
 print("La distancia de B a A es", distancia_BA)
 
 rectangulo = rectangulo()
-rectangulo.set_punto1 (puntoA)
-rectangulo.set_punto2(puntoB)
+rectangulo.set_punto1 (A)
+rectangulo.set_punto2(B)
 
-primer_punto = rectangulo.get_punto1()
-segundo_punto = rectangulo.get_punto2()
-
-print(primer_punto)
-print(segundo_punto)
