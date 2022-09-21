@@ -21,3 +21,20 @@ class Punto():
 #Creamos el método show que nos devuelve  la tupla de coordenadas
     def show (self):
         return (self.x, self.y)
+#Creamos el método cuadrante que nos permite identificar el cuadrante al que pertenece nuestro
+#punto
+    def cuadrante(self): 
+        if self.x == 0 and self.y== 0:
+            print("El punto es el origen de coordenadas")
+        elif self.x == 0 and self.y != 0:
+            print("El punto se encuentra en el eje de ordenada")
+        elif self.x != 0 and self.y== 0:
+            print("El punto se encuentra en el eje de abcisas")
+        elif self.x > 0 and self.y>0:
+            print("El punto esta en el primer cuadrante")
+        elif self.x < 0 and self.y >0:
+            print("El punto esta en el segundo cuadrante")
+        elif self.x< 0 and self.y< 0:
+            print("El punto esta en el tercer cuadrante")
+        elif self.x > 0 and  self.y< 0:
+            print("El punto esta en el cuarto cuadrante")
