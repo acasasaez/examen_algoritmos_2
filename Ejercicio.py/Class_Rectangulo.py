@@ -13,3 +13,11 @@ class rectangulo():
         return self.punto1
     def get_punto2(self):
         return self.punto2 
+
+    #def base()
+    #def altura()
+    #def area()
+    
+def main():
+    if __name__ == "__main__":
+        main()
