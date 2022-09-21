@@ -122,9 +122,16 @@ class rectangulo():
     def get_punto2(self):
         return self.punto2 
 
-    #def base()
+     #def base()
+    #para poder definir la base tendremos en cuenta que el rectángulo cuenta con 4 ángulos rectos
+    #por lo tanto tomando los 2 puntos de partida del rectángulo y calculando la distancia entre ellos,
+    #multiplicada por el coseno del ángulo 90/2 deberíamos obtener nuestra base
     #def altura()
+    #por otro lado la altura del rectángulo la obtendríamos a través de pitágoras, donde h será la distancia entre los puntos que delimital la diagonal del rectángulo
+    #c1 equivale a la base y c2 se corresponde con la altura, que es el dato que queremos obtener
     #def area()
+    #para el área es necesario haber obtenido previamente base y altura#def base()
+
     
 def main():
     if __name__ == "__main__":
