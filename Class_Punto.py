@@ -38,3 +38,11 @@ class Punto():
             print("El punto esta en el tercer cuadrante")
         elif self.x > 0 and  self.y< 0:
             print("El punto esta en el cuarto cuadrante")
+#Creamos el método vector 
+#Le pasamos por parámetro unas nuevas coordenadas x, y de un punto   
+#La función devuelve el vector que va desde nuestro punto hasta el punto cuyas coordenadas hemos pasado por parámetro
+    def vector(self, x=0,y=0):
+        a = x - self.x  
+        b =y - self.y
+        vector2 = (a,b)
+        return vector2
