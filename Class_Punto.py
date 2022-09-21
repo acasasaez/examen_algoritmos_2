@@ -18,3 +18,6 @@ class Punto():
         return self.x
     def get_y(self):
         return self.y
+#Creamos el método show que nos devuelve  la tupla de coordenadas
+    def show (self):
+        return (self.x, self.y)
