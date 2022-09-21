@@ -45,6 +45,7 @@ Por otro lado, cuenta con los siguientes métodos:
       c.Area
       
 Código
+1. Class_Punto
 ```from cmath import sqrt
 import math
 #Creamos la clase Punto y definimos el método constructor para crear puntos facilmente
@@ -103,8 +104,8 @@ class Punto():
 def main():
     if __name__ == "__main__":
         main()
-      ```
-```
+      
+2. Class_Rectangulo
 from Class_Punto import*
 class rectangulo():
     def init (self, punto1, punto2):
@@ -128,9 +129,8 @@ class rectangulo():
 def main():
     if __name__ == "__main__":
         main()
-  ```
-  ```
-  from Class_Punto import*
+3. Main
+from Class_Punto import*
 from Class_Rectangulo import*
 
 A= Punto()
